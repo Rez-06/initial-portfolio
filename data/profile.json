@@ -1,0 +1,38 @@
+{
+  "name": "Rezwan Ahmed",
+  "monogram": "RA",
+  "designation": "Full-Stack Web Developer | CSE Student",
+  "tagline": "A CSE student building practical software.",
+  "headline": "Building useful things for the web.",
+  "intro": "I’m Rezwan, a CSE student at IUT focused on building thoughtful web applications, strengthening my software engineering fundamentals, and exploring AI-powered systems.",
+  "currentFocus": "Studying CSE at IUT and building web projects",
+  "university": "Islamic University of Technology (IUT), Bangladesh",
+  "degree": "BSc in Computer Science and Engineering",
+  "expectedGraduation": "2028",
+  "email": "rezwan.ahmed.ovi.2005@gmail.com",
+  "phone": { "display": "+880 1306 981882", "tel": "+8801306981882" },
+  "portrait": {
+    "src": "/images/rezwan-ahmed-profile.webp",
+    "alt": "Portrait of Rezwan Ahmed"
+  },
+  "resume": { "path": "/resume.pdf" },
+  "siteDescription": "Portfolio of Rezwan Ahmed, a Computer Science and Engineering student at IUT building full-stack web applications and exploring AI.",
+  "about": [
+    "I’m a Computer Science and Engineering student at the Islamic University of Technology in Bangladesh, expecting to graduate in 2028. My coursework spans algorithms, software engineering, and systems analysis and design, and I like understanding how a system works before building on top of it.",
+    "Most of my learning happens by building. My personal and academic projects include a Bangla price-tracking web platform, a retro logic-puzzle game written in Java, and a console-based café management system in C++. I care about software that is useful, readable, and straightforward to maintain.",
+    "Beyond web development I’m drawn to AI and machine learning, including generative AI, AI agents and computer vision, as well as robotics and problem-solving. Gatekeeper, my logic-puzzle game, sits where several of those interests overlap."
+  ],
+  "interests": [
+    "Full-stack web development",
+    "Software engineering",
+    "AI and machine learning",
+    "Generative AI and agents",
+    "Computer vision",
+    "Robotics",
+    "Algorithms",
+    "Games",
+    "Films",
+    "Anime",
+    "Creative technology"
+  ]
+}

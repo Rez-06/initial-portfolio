@@ -1,0 +1,31 @@
+[
+  { "name": "C++", "category": "Languages", "icon": "cpu", "status": "comfortable", "description": "Used for the XOR Gaming Cafe management system" },
+  { "name": "Java", "category": "Languages", "icon": "coffee", "status": "comfortable", "description": "Used for the Gatekeeper puzzle game" },
+  { "name": "Python", "category": "Languages", "icon": "terminal", "status": "learning" },
+  { "name": "JavaScript", "category": "Languages", "icon": "braces", "status": "comfortable" },
+  { "name": "TypeScript", "category": "Languages", "icon": "file-code", "status": "comfortable" },
+  { "name": "SQL", "category": "Languages", "icon": "table", "status": "learning" },
+
+  { "name": "HTML", "category": "Frontend", "icon": "code-xml", "status": "comfortable" },
+  { "name": "CSS", "category": "Frontend", "icon": "palette", "status": "comfortable" },
+  { "name": "React", "category": "Frontend", "icon": "atom", "status": "comfortable" },
+  { "name": "Next.js", "category": "Frontend", "icon": "layers", "status": "comfortable" },
+  { "name": "Tailwind CSS", "category": "Frontend", "icon": "wind", "status": "comfortable" },
+
+  { "name": "Node.js", "category": "Backend and databases", "icon": "server", "status": "learning" },
+  { "name": "Express.js", "category": "Backend and databases", "icon": "route", "status": "learning" },
+  { "name": "MongoDB", "category": "Backend and databases", "icon": "database", "status": "comfortable" },
+  { "name": "Better Auth", "category": "Backend and databases", "icon": "key-round", "status": "comfortable" },
+
+  { "name": "Git", "category": "Tools", "icon": "git-branch", "status": "comfortable" },
+  { "name": "GitHub", "category": "Tools", "icon": "git-pull-request", "status": "comfortable" },
+  { "name": "Bun", "category": "Tools", "icon": "zap", "status": "learning" },
+  { "name": "Vercel", "category": "Tools", "icon": "triangle", "status": "comfortable" },
+
+  { "name": "Artificial intelligence and machine learning", "category": "Areas of interest", "icon": "brain", "status": "exploring" },
+  { "name": "Generative AI", "category": "Areas of interest", "icon": "sparkles", "status": "exploring" },
+  { "name": "AI agents", "category": "Areas of interest", "icon": "bot", "status": "exploring" },
+  { "name": "Computer vision", "category": "Areas of interest", "icon": "scan-eye", "status": "exploring" },
+  { "name": "Robotics", "category": "Areas of interest", "icon": "cog", "status": "exploring" },
+  { "name": "Data structures and algorithms", "category": "Areas of interest", "icon": "binary", "status": "learning" }
+]

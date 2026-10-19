@@ -1,0 +1,234 @@
+[
+  {
+    "slug": "bazardor",
+    "title": "BazarDor — Bangladeshi Market Price Platform",
+    "subtitle": "A Bangla-first way to follow the daily prices of everyday essentials.",
+    "description": "A Bangla-language web platform for exploring daily market prices in Bangladesh, with category browsing, price sorting, comparisons across time periods and market-wise price ranges.",
+    "status": "in-development",
+    "featured": true,
+    "sortOrder": 1,
+    "coverImage": "/images/bazardor-cover.webp",
+    "coverAlt": "Illustration of a rising price chart beside a price tag. Placeholder artwork, not a screenshot of BazarDor.",
+    "gallery": [],
+    "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS", "daisyUI", "Better Auth", "MongoDB", "Vercel"],
+    "categories": ["Web application", "Full-stack"],
+    "facts": [
+      { "label": "Interface language", "value": "Bangla, with Bengali text and numerals" },
+      { "label": "Type", "value": "Personal web project" }
+    ],
+    "overview": [
+      "BazarDor is a Bangla-language web platform for exploring daily market prices in Bangladesh. It organizes essential products such as rice, lentils, cooking oil, vegetables, fish, meat, eggs, dairy products and spices.",
+      "The interface uses Bengali text and numerals and presents changes in essential commodity prices in an accessible format."
+    ],
+    "problem": [
+      "Following changes in the prices of essential commodities, across products, time periods and markets, is easier when the numbers are organized in one place and shown in the language people use every day."
+    ],
+    "goals": [
+      "Make daily market prices easy to browse by category.",
+      "Show how prices have moved and where they differ between markets.",
+      "Keep the experience Bangla-first, including numerals."
+    ],
+    "features": [
+      "Category browsing across essentials: rice, lentils, cooking oil, vegetables, fish, meat, eggs, dairy products and spices",
+      "Price sorting",
+      "Price comparisons across different time periods",
+      "Market-wise price ranges",
+      "Price-change indicators",
+      "Bangla-first interface with Bengali text and numerals"
+    ],
+    "architecture": {
+      "summary": "A Next.js application written in TypeScript, styled with Tailwind CSS and daisyUI, with authentication through Better Auth backed by MongoDB, deployed on Vercel.",
+      "layers": [
+        { "title": "Interface", "description": "Next.js and React pages, styled with Tailwind CSS and daisyUI.", "items": ["Category browsing", "Price sorting", "Price-change indicators", "Bengali text and numerals"] },
+        { "title": "Price data", "description": "Market prices are retrieved from an external source and transformed into the shapes the interface needs.", "items": ["External price data", "Transformation for display"] },
+        { "title": "Accounts", "description": "Authentication with Better Auth, using MongoDB.", "items": ["Better Auth", "MongoDB"] },
+        { "title": "Hosting", "items": ["Vercel"] }
+      ]
+    },
+    "challengesNote": "These are the areas this project touches, not a first-hand account. A fuller write-up is still to come.",
+    "challenges": [
+      "Depending on an external price API whose availability and shape can change",
+      "Transforming raw market-price data into consistent, comparable displays",
+      "Building reusable page structures across many product categories",
+      "Adding authentication to a data-heavy interface",
+      "Keeping price formats and Bengali numerals consistent everywhere"
+    ],
+    "futureImprovements": [
+      "Historical price charts",
+      "Advanced search and filters",
+      "Better market comparison tools",
+      "Improved caching and API resilience",
+      "More detailed price-trend visualization"
+    ],
+    "liveUrl": "https://bazar-dor-website-dusky.vercel.app",
+    "repositoryUrl": "https://github.com/Rez-06/Bazar-Dor-Website"
+  },
+  {
+    "slug": "gatekeeper",
+    "title": "Gatekeeper — Logic Puzzle and Story Game",
+    "subtitle": "A retro 2D story game where the puzzles are built from logic gates.",
+    "description": "A retro-inspired 2D story and puzzle game that combines dialogue choices, original pixel-art environments and an interactive circuit-building puzzle system.",
+    "featured": true,
+    "sortOrder": 2,
+    "coverImage": "/images/gatekeeper-cover.webp",
+    "coverAlt": "Pixel-art illustration of an XOR logic gate with input and output wires. Placeholder artwork, not a gameplay screenshot.",
+    "gallery": [],
+    "technologies": ["Java 17", "Gradle", "Java 2D", "Pixel art"],
+    "categories": ["Game", "Puzzle", "Digital logic"],
+    "facts": [
+      { "label": "Language", "value": "Java 17" },
+      { "label": "Build tool", "value": "Gradle" },
+      { "label": "Graphics", "value": "Java 2D, pixel-art presentation" }
+    ],
+    "overview": [
+      "Gatekeeper is a retro-inspired 2D story and puzzle game combining dialogue choices, original environments, pixel-art presentation and an interactive circuit-building puzzle system.",
+      "Players work with logic gates including NAND, NOR, XOR, XNOR and IMPLY, constructed from fundamental logic components."
+    ],
+    "goals": [
+      "Connect software development, digital logic, game design and interactive problem-solving in one project."
+    ],
+    "features": [
+      "Story told through dialogue choices",
+      "Original environments",
+      "Pixel-art visual presentation",
+      "Interactive circuit-building puzzle system",
+      "Logic gates including NAND, NOR, XOR, XNOR and IMPLY, built from fundamental logic components"
+    ],
+    "architecture": {
+      "summary": "A Java 17 project built with Gradle and rendered with Java 2D.",
+      "layers": [
+        { "title": "Presentation", "description": "Pixel-art visuals drawn with Java 2D.", "items": ["Java 2D", "Pixel-art environments"] },
+        { "title": "Narrative", "description": "Dialogue choices set in original environments.", "items": ["Dialogue choices", "Environments"] },
+        { "title": "Puzzle system", "description": "An interactive circuit builder where gates are assembled from fundamental logic components.", "items": ["NAND", "NOR", "XOR", "XNOR", "IMPLY"] },
+        { "title": "Build", "items": ["Java 17", "Gradle"] }
+      ]
+    },
+    "challengesNote": "These are the areas this project touches, not a first-hand account. A fuller write-up is still to come.",
+    "challenges": [
+      "Making a circuit-building puzzle that stays faithful to digital-logic rules",
+      "Drawing pixel-art scenes with Java 2D",
+      "Balancing story pacing against puzzle difficulty",
+      "Keeping dialogue branches manageable as they grow"
+    ],
+    "futureImprovements": [
+      "Additional puzzle levels",
+      "More logic components",
+      "Expanded dialogue branches",
+      "Additional environments",
+      "Improved animations"
+    ]
+  },
+  {
+    "slug": "xor-gaming-cafe",
+    "title": "XOR Gaming Cafe & Restaurant Management System",
+    "subtitle": "A console-based C++ system for running a café and a gaming zone.",
+    "description": "A console-based restaurant and gaming-zone management system in C++ using object-oriented programming and file handling: menu, inventory, kitchen queue, game rentals and a central register.",
+    "status": "academic",
+    "featured": true,
+    "sortOrder": 3,
+    "coverImage": "/images/xor-cafe-cover.webp",
+    "coverAlt": "Illustration of a game controller and a coffee cup beside an XOR symbol. Placeholder artwork, not a screenshot of the program.",
+    "gallery": [],
+    "technologies": ["C++", "Object-Oriented Programming", "File handling", "STL containers", "chrono", "Console UI"],
+    "categories": ["Console application", "Academic project", "OOP"],
+    "facts": [
+      { "label": "Language", "value": "C++" },
+      { "label": "Type", "value": "Academic OOP project" },
+      { "label": "Interface", "value": "Console" },
+      { "label": "Storage", "value": ".txt and .dat files" },
+      { "label": "Roles", "value": "Admin, Chef, Customer" }
+    ],
+    "overview": [
+      "A console-based Restaurant and Gaming Zone Management System written in C++ using object-oriented programming and file handling.",
+      "The system simulates the operations of a gaming café: food service, inventory management, kitchen workflow, game rentals and financial register management."
+    ],
+    "features": [],
+    "featureGroups": [
+      {
+        "title": "Authentication and roles",
+        "items": ["Login, sign up and forgot password", "Role-based access for Admin, Chef and Customer"]
+      },
+      {
+        "title": "Food menu",
+        "items": [
+          "Add, update and delete food items",
+          "Food names, prices, recipes, ingredients and ingredient quantities",
+          "Menu data persisted in binary files",
+          "Food availability shown based on inventory"
+        ]
+      },
+      {
+        "title": "Inventory and orders",
+        "items": [
+          "Add ingredients and refill or update stock",
+          "Customers place food orders, validated against ingredient availability",
+          "Ingredients deducted automatically after valid orders",
+          "Orders blocked when required ingredients are unavailable",
+          "Simulated transaction loading screen using chrono"
+        ]
+      },
+      {
+        "title": "Kitchen workflow",
+        "items": [
+          "Valid orders are pushed into the kitchen queue",
+          "Chefs view pending orders and the recipes for ordered food",
+          "Chefs confirm and complete orders"
+        ]
+      },
+      {
+        "title": "Game catalogue and rentals",
+        "items": [
+          "Admins add or remove games with name, genre, description and release date",
+          "PlayStation 1 to 4 rentals with one to four controllers",
+          "Customers choose rental durations and time slots; fully booked slots are shown as unavailable",
+          "Admins can change prices and available slot counts",
+          "Two controllers: 150 BDT per hour or 100 BDT per 30 minutes",
+          "Each additional controller: +50 BDT per hour or +30 BDT per 30 minutes"
+        ]
+      },
+      {
+        "title": "Register and transactions",
+        "items": [
+          "One register for food purchases, game rentals and cash-outs",
+          "Tracks total cash, best-selling food item, most-rented game and total income from café and game zone",
+          "Admin-only cash-out records a description",
+          "Transactions stored in files with timestamps"
+        ]
+      }
+    ],
+    "architecture": {
+      "summary": "A modular C++ codebase. Each responsibility lives in its own header and source pair, with role-specific front-ends sitting on shared domain modules and file-based storage.",
+      "layers": [
+        { "title": "Entry point", "items": ["main.cpp"] },
+        { "title": "Authentication", "description": "Sign-in and password recovery.", "items": ["login", "passcode"] },
+        { "title": "Role interfaces", "description": "What each kind of user can do.", "items": ["admin", "chef", "customer"] },
+        { "title": "Restaurant domain", "items": ["food_menu", "inventory", "order", "kitchen_queue"] },
+        { "title": "Gaming-zone domain", "items": ["game_catalogue", "rental"] },
+        { "title": "Register and storage", "description": "Central financial record plus persistence in text and binary files.", "items": ["register", ".txt files", ".dat files"] }
+      ],
+      "notes": [
+        "Each module is a .h and .cpp pair, except main.cpp.",
+        "Uses STL containers including vector, queue and map, and chrono for simulated loading screens."
+      ]
+    },
+    "challengesNote": "These are the areas this project touches, not a first-hand account. A fuller write-up is still to come.",
+    "challenges": [
+      "Keeping file-based persistence consistent across modules",
+      "Validating and deducting ingredients correctly when orders are placed",
+      "Tracking time-slot availability for game rentals",
+      "Keeping one register accurate across the restaurant and the gaming zone",
+      "Enforcing role-based access for Admin, Chef and Customer"
+    ],
+    "futureImprovements": [
+      "A graphical user interface",
+      "More robust transaction validation",
+      "Improved file-data integrity and recovery",
+      "Unit tests for inventory and rental rules",
+      "Better reporting and analytics",
+      "Database-backed persistence",
+      "Improved reservation and scheduling logic"
+    ],
+    "liveNote": "This is a console application that runs locally, so there is no browser-based demo.",
+    "runLocally": "Compile the sources with GCC, or open the project in Code::Blocks, after obtaining the repository and the required source files."
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "institution": "Islamic University of Technology (IUT), Bangladesh",
+    "degree": "BSc in Computer Science and Engineering",
+    "status": "Currently pursuing",
+    "endDate": "2028",
+    "endIsExpected": true,
+    "focusAreas": [
+      "Data structures",
+      "Algorithms",
+      "Software engineering",
+      "Discrete mathematics",
+      "Digital logic",
+      "Systems analysis and design"
+    ]
+  }
+]

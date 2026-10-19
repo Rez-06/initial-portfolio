@@ -1,0 +1,25 @@
+[
+  {
+    "id": "github",
+    "label": "GitHub",
+    "url": "https://github.com/Rez-06",
+    "handle": "Rez-06",
+    "icon": "github",
+    "hero": true
+  },
+  {
+    "id": "linkedin",
+    "label": "LinkedIn",
+    "url": "https://www.linkedin.com/in/rezwan-ahmed-ovi/",
+    "handle": "rezwan-ahmed-ovi",
+    "icon": "linkedin",
+    "hero": true
+  },
+  {
+    "id": "facebook",
+    "label": "Facebook",
+    "url": "https://www.facebook.com/rezwanahmed.ovi",
+    "handle": "rezwanahmed.ovi",
+    "icon": "facebook"
+  }
+]
