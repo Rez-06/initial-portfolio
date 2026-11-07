@@ -28,14 +28,7 @@ export function resolveImage(src: string | undefined): string | undefined {
 
 export interface ResumeLink { href: string; label: string; isFile: boolean }
 
-/**
- * If /public/resume.pdf (or the path from profile.json) exists, link to it.
- * Otherwise fall back to an honest "request by email" link: never a dead download.
- */
+/** The resume is published from /public, so the buttons always download the PDF. */
 export function getResumeLink(): ResumeLink {
-  if (localFileExists(profile.resumePath)) {
-    return { href: profile.resumePath, label: "Download Resume", isFile: true };
-  }
-  const subject = encodeURIComponent(`Resume request for ${profile.name}`);
-  return { href: `mailto:${profile.email}?subject=${subject}`, label: "Request Resume", isFile: false };
+  return { href: profile.resumePath, label: "Download Resume", isFile: true };
 }

@@ -1,4 +1,4 @@
-import { ArrowDown, Download, Mail } from "lucide-react";
+import { ArrowDown, Download } from "lucide-react";
 import { profile, socials } from "@/lib/data";
 import { getResumeLink, resolveImage } from "@/lib/assets";
 import { ButtonLink } from "./ButtonLink";
@@ -39,8 +39,8 @@ export function Hero() {
 
           <div className="rise mt-9 flex flex-wrap items-center gap-3" style={{ "--d": "300ms" } as React.CSSProperties}>
             <ButtonLink href="/#projects"><ArrowDown size={18} aria-hidden /> Explore Projects</ButtonLink>
-            <a href={resume.href} {...(resume.isFile ? { download: true } : {})} className="btn btn-outline">
-              {resume.isFile ? <Download size={18} aria-hidden /> : <Mail size={18} aria-hidden />} {resume.label}
+            <a href={resume.href} download className="btn btn-outline">
+              <Download size={18} aria-hidden /> {resume.label}
             </a>
             <ul className="flex items-center gap-2 sm:ml-2">
               {heroSocials.map((s) => (
@@ -52,9 +52,6 @@ export function Hero() {
               ))}
             </ul>
           </div>
-          {!resume.isFile ? (
-            <p className="rise mt-3 text-sm text-muted" style={{ "--d": "340ms" } as React.CSSProperties}>The resume PDF isn’t published yet. The button opens an email request.</p>
-          ) : null}
         </div>
 
         <figure className="rise mx-auto w-full max-w-sm lg:col-span-5 lg:max-w-none lg:justify-self-end lg:w-[min(100%,24rem)]" style={{ "--d": "260ms" } as React.CSSProperties}>

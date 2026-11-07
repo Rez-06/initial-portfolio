@@ -126,7 +126,7 @@ Save a photo as `public/images/rezwan-ahmed-profile.webp` (4:5 portrait, roughly
 
 ### 5. Add your resume
 
-Save the PDF as `public/resume.pdf`. That's it: the buttons switch from **Request Resume** (opens an email to you) to **Download Resume** automatically. To use a different path, change `resume.path` in `data/profile.json`.
+Save the PDF as `public/Rezwan_Ahmed_Ovi_Resume.pdf` (or change `resume.path` in `data/profile.json` to match your filename). The **Download Resume** buttons download that file directly.
 
 ### 6. Add or change a social link
 

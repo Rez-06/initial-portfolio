@@ -15,7 +15,7 @@
     "src": "/images/rezwan-ahmed-profile.webp",
     "alt": "Portrait of Rezwan Ahmed"
   },
-  "resume": { "path": "/resume.pdf" },
+  "resume": { "path": "/Rezwan_Ahmed_Ovi_Resume.pdf" },
   "siteDescription": "Portfolio of Rezwan Ahmed, a Computer Science and Engineering student at IUT building full-stack web applications and exploring AI.",
   "about": [
     "I’m a Computer Science and Engineering student at the Islamic University of Technology in Bangladesh, expecting to graduate in 2028. My coursework spans algorithms, software engineering, and systems analysis and design, and I like understanding how a system works before building on top of it.",

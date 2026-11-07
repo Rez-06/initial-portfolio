@@ -71,7 +71,7 @@ export function Navbar({ brand, monogram, items, resume }: Props) {
               </Link>
             );
           })}
-          <a href={resume.href} {...(resume.isFile ? { download: true } : {})} className="btn btn-outline ml-3 min-h-10 px-4">
+          <a href={resume.href} download className="btn btn-outline ml-3 min-h-10 px-4">
             <FileText size={16} aria-hidden /> Resume
           </a>
         </nav>
@@ -105,7 +105,7 @@ export function Navbar({ brand, monogram, items, resume }: Props) {
               </Link>
             );
           })}
-          <a href={resume.href} onClick={() => setOpen(false)} {...(resume.isFile ? { download: true } : {})} className="btn btn-primary mt-4">
+          <a href={resume.href} onClick={() => setOpen(false)} download className="btn btn-primary mt-4">
             <FileText size={18} aria-hidden /> {resume.label}
           </a>
         </nav>
