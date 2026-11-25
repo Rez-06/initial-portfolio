@@ -4,7 +4,9 @@
   "private": true,
   "description": "Personal portfolio of Rezwan Ahmed — JSON-driven Next.js site.",
   "scripts": {
+    "predev": "node scripts/sync-resume.mjs",
     "dev": "next dev",
+    "prebuild": "node scripts/sync-resume.mjs",
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
